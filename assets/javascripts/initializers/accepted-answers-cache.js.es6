@@ -2,6 +2,7 @@ import DiscoveryController from 'discourse/controllers/discovery';
 import DiscoveryRoute from 'discourse/routes/discovery';
 import CategoryList from "discourse/models/category-list";
 import PreloadStore from 'preload-store';
+import { ajax } from 'discourse/lib/ajax';
 
 export default {
   name: "accepted-answers-cache",
@@ -9,7 +10,7 @@ export default {
   initialize() {
     CategoryList.reopenClass({
       list(store) {
-        const getCategories = () => Discourse.ajax("/categories.json");
+        const getCategories = () => ajax("/categories.json");
         return PreloadStore.getAndRemove("categories_list", getCategories).then(result => {
           return CategoryList.create({
             categories: this.categoriesFrom(store, result),

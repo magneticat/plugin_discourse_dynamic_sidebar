@@ -10,7 +10,7 @@
 
 {{conditional-loading-spinner condition=loading}}
 
-<div {{bind-attr class=":container :list-container loading:hidden siteSettings.enable_sidebar:with-sidebar"}}>
+<div class="container list-container {{if loading 'hidden'}} {{if siteSettings.enable_sidebar 'with-sidebar'}}">
   <div class="row">
     <div class="full-width">
       <div id='header-list-area'>
