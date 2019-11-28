@@ -15,7 +15,7 @@ after_initialize do
     def solved_answers
       Rails.cache.fetch("latest_solved_answers", expires_in: 1.minute) do
         solved_answers = {}
-        sql_categories_muted = {13,14,15,22}
+        sql_categories_muted = ['13','14','15','22']
         if SiteSetting.default_categories_muted.present?
           default_categories_muted = SiteSetting.default_categories_muted.split("|");
           (sql_categories_muted << default_categories_muted).flatten!
