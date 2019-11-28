@@ -14,11 +14,6 @@ The dynamic sidebar settings is on the site Settings > Sidebar Settings.
 
 (.../admin/site_settings/category/sidebar_settings)
 
-![](https://raw.githubusercontent.com/tcreativo/docs-images/master/scrshot1.png)
-
-- Result:
-
-![](https://raw.githubusercontent.com/tcreativo/docs-images/master/scrshot2.png)
 
 ## Installation
 
@@ -48,6 +43,8 @@ git pull
 - Produced by [Territorio creativo S.L.](http://www.territoriocreativo.es/)
 
 - Developed by [Vairix](http://www.vairix.com/)
+
+- Fixes for WCR by Magneticat
 
 ## Copyright / License
 
