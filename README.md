@@ -44,7 +44,7 @@ git pull
 
 - Developed by [Vairix](http://www.vairix.com/)
 
-- Fixes for WCR by Magneticat
+- Fixes for Discourse 2.4.0+ by Magneticat
 
 ## Copyright / License
 
