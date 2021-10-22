@@ -14,12 +14,6 @@ The dynamic sidebar settings is on the site Settings > Sidebar Settings.
 
 (.../admin/site_settings/category/sidebar_settings)
 
-![](https://raw.githubusercontent.com/tcreativo/docs-images/master/scrshot1.png)
-
-- Result:
-
-![](https://raw.githubusercontent.com/tcreativo/docs-images/master/scrshot2.png)
-
 ## Installation
 
 As seen in a [how-to on meta.discourse.org](https://meta.discourse.org/t/advanced-troubleshooting-with-docker/15927#Example:%20Install%20a%20plugin), simply **add the plugin's repo url to your container's app.yml file**:
