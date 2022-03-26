@@ -43,6 +43,8 @@ git pull
 
 - Developed by [Vairix](http://www.vairix.com/)
 
+- Fixes for Discourse 2.4.0+ by Magneticat
+
 ## Copyright / License
 
 Copyright 2014 Territorio creativo S.L.
