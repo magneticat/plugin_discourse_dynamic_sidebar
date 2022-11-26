@@ -3,6 +3,5 @@
 # authors: Vairix, Arpit Jalan, MagnetiCat
 
 register_asset "javascripts/admin/templates/site_settings/setting_text.hbs"
-register_asset "javascripts/discourse/templates/discovery.hbs"
 register_asset "stylesheets/sidebar_styles.css"
 
