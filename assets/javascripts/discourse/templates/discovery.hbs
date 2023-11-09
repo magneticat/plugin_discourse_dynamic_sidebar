@@ -31,18 +31,5 @@
 {{#if siteSettings.enable_sidebar}}
   <div class='sidebar'>
     {{{siteSettings.sidebar_content}}}
-
-    {{#if siteSettings.enable_solution_widget}}
-      {{#if solved_answer}}
-        <div class="solutions-container">
-          <div class="sidebar-title">Most Recent Solutions</div>
-          <div class="solutions-body">
-            {{{solved_answer}}}
-            <span class="more_solutions"><a href="https://community.wd.com/search?q=in%3Asolved" target="_blank">Click for more solutions.</a></span>
-          </div>
-        </div>
-      {{/if}}
-    {{/if}}
   </div>
-
 {{/if}}
